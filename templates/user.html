@@ -1,0 +1,10 @@
+<h1> {{GREET}}, {{NAME}} </h1>
+
+
+<h2>Today's top headers in technology are...</h2>
+
+<ol>
+{% for article in article_list%}
+    <li>{{article}}</li>
+{% endfor %}
+</ol>
